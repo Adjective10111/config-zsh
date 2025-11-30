@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$PATH:$HOME/development/flutter/bin:$HOME/.local/bin
-export PATH=$HOME/tools/bin:$PATH
+export PATH=$PATH:$HOME/development/flutter/bin
+export PATH=$HOME/.local/bin:$HOME/tools/bin:$PATH
 
 export XDG_DATA_DIRS=$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
 
