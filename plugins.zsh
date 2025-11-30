@@ -14,4 +14,7 @@ plugins+=(tmux)
 
 ZVM_SYSTEM_CLIPBOARD_ENABLED=true
 plugins+=(zsh-vi-mode)
+function zvm_after_lazy_keybindings() {
+	zvm_bindkey vicmd '?' history-incremental-search-backward
+}
 
