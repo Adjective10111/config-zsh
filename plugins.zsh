@@ -12,5 +12,6 @@ plugins+=(git)
 # ZSH_TMUX_AUTOSTART=true
 plugins+=(tmux)
 
+ZVM_SYSTEM_CLIPBOARD_ENABLED=true
 plugins+=(zsh-vi-mode)
 
